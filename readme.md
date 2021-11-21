@@ -1,2 +1,3 @@
 Readme
-Inception resent notebook - inception_resnet_final_notebook.ipynb
+
+1. Inception resent notebook - inception_resnet_final_notebook.ipynb
