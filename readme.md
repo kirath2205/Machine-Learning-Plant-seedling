@@ -20,12 +20,19 @@ This GitHub repository contains both the code (Jupyter Notebooks) and submission
 2. Run the Plant_Seedling_Exploratory_Data_Analysis.ipynb to generate the requiste directory structure
 
 ### Approach 1: kNN
+> Navigate to `KNN.ipynb`
 
-
+1. Run cells 1-10 to download the data from Kaggle and create seperate folders for training, validation and testing. 
+2. Run the subsequent cells for model training
+3. Download the csv file generated for submission
 
 
 ### Approach 2: Support Vector Machine
+> Navigate to `SVC.ipynb`
 
+1. Run cells 1-10 to download the data from Kaggle and create seperate folders for training, validation and testing. 
+2. Run the subsequent cells for model training
+3. Download the csv file generated for submission
 
 ### Approach 3: VGG-16
 > Navigate to `vgg_16_notebook_final.ipynb`
