@@ -4,6 +4,11 @@ Readme
 2. submission for inception resnet - inception-resnet.csv
 3. vgg16 notebook - vgg16_notebook_final.ipynb
 4. vgg16 submission - vgg16.csv
+5. KNN notebook - KNN.ipynb
+6. KNN submission - knn.csv
+7. SVC notebook - SVC.ipynb
+8. SVC submission - svc.csv
+9. Exploratory Data Analysis notebook - Plant_Seedlings_Exploratory_Data_Analysis.ipynb
 
 
 # Kaggle - Plant Seedling Classification
