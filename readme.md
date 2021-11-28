@@ -15,40 +15,33 @@ This GitHub repository contains both the code (Jupyter Notebooks) and submission
 
 ## Methodologies
 
-> Note: All notebooks were created on the Kaggle/Google Colab platforms where they fetch data from the Kaggle/Google Drive directories. It will not work by default on the Jupyter Notebook Platform.
-
+###Creating directory structure
+1. Mount your google drive and upload the train and test zip files on your google drive.
+2. Run the Plant_Seedling_Exploratory_Data_Analysis.ipynb to generate the requiste directory structure
 
 ### Approach 1: kNN
-> Navigate to `code/kNN.ipynb`
 
-1. Create a new Kaggle Notebook by clicking on the `+ New Notebook` button [here](https://www.kaggle.com/code).
-2. Go to `File` --> `Open Notebook` and upload our  `.ipynb` file.
-3. Add data by clicking on the `+ Add Data` button on the right pane, and search for `Plant Seedling Classification` under `Competiton Data`.
-4. Run all cells. 
+
+
 
 ### Approach 2: Support Vector Machine
-> Navigate to `code/support_vector_machine.ipynb`
 
-1. Create a new Kaggle Notebook by clicking on the `+ New Notebook` button [here](https://www.kaggle.com/code).
-2. Go to `File` --> `Open Notebook` and upload our  `.ipynb` file.
-3. Add data by clicking on the `+ Add Data` button on the right pane, and search for `Plant Seedling Classification` under `Competiton Data`.
-4. Run all cells. 
 
-### Approach 3: Support Vector Machine
-> Navigate to `code/vgg_16_notebook_final.ipynb`
+### Approach 3: VGG-16
+> Navigate to `vgg_16_notebook_final.ipynb`
 
-1. Create a new Kaggle Notebook by clicking on the `+ New Notebook` button [here](https://www.kaggle.com/code).
-2. Go to `File` --> `Open Notebook` and upload our  `.ipynb` file.
-3. Add data by clicking on the `+ Add Data` button on the right pane, and search for `Plant Seedling Classification` under `Competiton Data`.
-4. Run all cells. 
+1. Download the unzipped train and test folders to Documents/
+2. Connect your google colab instance to localhost by making use of jupyter_http_over_ws to connect to localhost.
+3. Run all cells to generate the folder for the best model weights as well as the csv file containing the predictions for the kaggle's test dataset.
+
+VGG-16 was published in the paper "Very Deep Convolution Networks for Large-Scale image-recognition by Karen Simonyan and Andrew Zisserman, available at [arXiv](https://arxiv.org/pdf/1409.1556.pdf).
 
 ### Approach 4: Inception Resnet v2
-> Navigate to `code/inception_resnet_final_notebook.ipynb`
+> Navigate to `inception_resnet_final_notebook.ipynb`
 
-1. Create a new Kaggle Notebook by clicking on the `+ New Notebook` button [here](https://www.kaggle.com/code).
-2. Go to `File` --> `Open Notebook` and upload our  `.ipynb` file.
-3. Add data by clicking on the `+ Add Data` button on the right pane, and search for `Plant Seedling Classification` under `Competiton Data`.
-4. Run all cells.  
+1. Download the unzipped train and test folders to Documents/
+2. Connect your google colab instance to localhost by making use of jupyter_http_over_ws to connect to localhost.
+3. Run all cells to generate the folder for the best model weights as well as the csv file containing the predictions for the kaggle's test dataset. 
 
 Inception Resnet v2 was published in the paper 'Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning', by Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, Alex Alemi, available at [arXiv](https://arxiv.org/abs/1602.07261). It is used as a transfer learning methodology via a Keras API documented [here](https://keras.io/api/applications/inceptionresnetv2/). 
 
